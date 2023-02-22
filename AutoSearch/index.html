@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background-color: aqua;
+        }
+        .container{
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            padding: 3px;
+            outline: transparent;
+        }
+        ul li{
+            list-style-type: none;
+            cursor: pointer;
+            margin: 5px ;
+            font-size: 15px;
+            border-bottom: 1px solid rgba(81, 79, 79, 0.495);
+        }
+        ul li:last-child{
+            border: none;
+        }
+        .show_items{
+            margin-top: 2px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="input_field">
+            <input type="text" name="" id="input">
+        <button class="btn">Search</button>
+        </div>
+
+        <div class="show_items">
+            <ul id="lists">
+                 
+            </ul>
+        </div>
+    </div>
+    
+</body>
+<script src="/AutoSearch/index.js"></script>
+</html>

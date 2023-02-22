@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information</title>
+    <link rel="stylesheet" href="/EmployeeDetails/index.css">
+    <script src="https://kit.fontawesome.com/0cc154e2b5.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <header>
+        <h1>Employee Database Management</h1>
+        <button id="add_user" onclick="openmodal()"> Add Employee</button>
+    </header>
+
+    <div class="main">
+        <div class="render_employee">
+            <p>Employee list</p>
+
+            <div class="employee_list">
+               
+            </div>
+        </div>
+
+        <div class="employee_info">
+            <p class="info">Employee Information</p>
+
+            <div class="Particular_user">
+                <img src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" alt="">
+                <h3>Pramod Hiretanad</h3>
+                <p>Address</p>
+                <p class="email">pramodsh@gmail.com</p>
+                <p class="mobile">Mobile - <span id="mob_no">9535596139</span></p>
+                <p class="Dob">DOB - <span id="dob_date">10/10/2001</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="register_modal ">
+        <div class="white_board">
+            <p class="modal_title">Add new Employee</p>
+            <form action="" id="user_data_form">
+                    <div class="name_input">
+                        <input type="text" placeholder="First name" name="firstname" id="">
+                        <input type="text" placeholder="Last name" name="lastname" id="">
+                    </div>
+                    <div class="single_length_input">
+                        <input type="text" name="image" id="" placeholder="image url link">
+                        <input type="email" name="Email" id="" placeholder="Email">
+                        <input type="text" name="Contact" id="" placeholder="Contact">
+                        <input type="text" name="Salary" id="" placeholder="Salary">
+                        <input type="text" name="Adress" id="" placeholder="Address">
+                        <input type="date" name="date" id="" >
+                        <input type="submit">
+                        <!-- <button onclick="close_modal()" id="close_modal"> Cancel</button> -->
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="/EmployeeDetails/index.js"></script>
+</html>

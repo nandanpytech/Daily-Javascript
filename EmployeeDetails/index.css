@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5px 10px;
+    overflow-x:hidden ;
+}
+header{
+    display: flex;
+    margin-bottom: 15px;
+}
+#add_user{
+    margin-left: auto;
+    padding: 7px;
+    border: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.main{
+    border: 1px solid black;
+    display: flex;
+}
+.render_employee{
+    width: 30%;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+.employee_info{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+.info{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.render_employee p{
+    text-align: center;
+    margin: 5px 5px;
+    border-bottom: 1px solid black;
+}
+.employee_list{
+    margin-top: 10px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.employee_name{
+    background-color: rgb(203, 225, 245);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Particular_user{
+    text-align: center;
+}
+.Particular_user img{
+    width: 20%;
+}
+.Particular_user p{
+    margin-bottom: 6px;
+}
+.register_modal{
+    position: absolute;
+    top: 0;
+    background-color: #4e4c4c41;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.open_modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_board{
+    background-color: white;
+   padding: 0 20px;
+   border-radius: 7px;
+}
+.modal_title{
+    text-align: center;
+    margin: 7px;
+}
+.name_input{
+display: flex;
+   gap: 35px;
+}
+input{
+    padding: 10px;
+    outline: 1px solid rgba(0, 0, 0, 0.145);
+    border-radius: 5px;
+    border: transparent;
+}
+.single_length_input{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.single_length_input button{
+    padding: 10px;
+    border: transparent;
+    outline: 1px solid rgba(0, 0, 0, 0.145);
+    border-radius: 5px;
+    
+}
+.single_length_input input{
+    width: 100%;
+}
