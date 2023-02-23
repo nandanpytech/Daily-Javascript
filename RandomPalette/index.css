@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box{
+    background-color: #fff;
+    min-width:  20%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+  box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.64);
+  border-radius: 7px;
+}
+.color{
+    background-color: blue;
+    height: 80%;
+}
+.hexvalue{
+    text-align: center;
+    padding-top: 5px;
+}
+.btn{
+    text-align: center;
+}
+.btn  button{
+    padding: 7px;
+    border-radius: 5px;
+    border: transparent;
+    outline: 1px solid black;
+    cursor: pointer;
+}
