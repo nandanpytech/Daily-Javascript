@@ -550,20 +550,74 @@
 
 
 //Class Constructor
-class Employee{
-    constructor(name,age){
-        this.name=name;
-        this.age=age
-    }
-}
-class Person extends Employee{
-    constructor(name){
-        super(name)
-    }
-}
+// class Employee{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age
+//     }
+// }
+// class Person extends Employee{
+//     constructor(name){
+//         super(name)
+//     }
+// }
 
 
-let a=new Person("Nandna",21)
-console.log(a.age)
+// let a=new Person("Nandna",21)
+// console.log(a.age)
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+
+//     this.getfullName=function(){
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+//   }
+  
+//   const member = new Person('Lydia', 'Hallie');
+// //   Person.getFullName = function() {
+   
+// //   };
+  
+//   console.log(member.getfullName());   //TypeError
+
+// --------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     console.log(firstName+lastName)
+//   }
+  
+//   const lydia = new Person('Lydia', 'Hallie');
+//   const sarah = Person('Sarah', 'Smith');
+  
+//   console.log(lydia);
+//   console.log(sarah);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+// const a=null;
+// console.log( a) //it is object but doesn't have prototype.
+
+// --------------------------------------------------------------------------------------------------------------------------------------------- 
+
+// function getPersonInfo(one, two, three) {
+//     console.log(one);
+//     console.log(two);
+//     console.log(three);
+//   }
+  
+//   const person = 'Lydia';
+//   const age = 21;
+  
+//   getPersonInfo`${person} is ${age} years old`;
+
+// Note: If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
+// --------------------------------------------------------------------------------------------------------------------------------------------- 

@@ -21,6 +21,7 @@
     flex-direction: column;
   box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.64);
   border-radius: 7px;
+  cursor: pointer;
 }
 .color{
     background-color: blue;
