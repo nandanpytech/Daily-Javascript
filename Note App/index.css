@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(142, 73, 206);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 25px;
+    column-gap: 25px;
+    padding: 10px;
+}
+
+.container div{
+    background-color: #fff;
+    max-height: 40vh;
+}
+.add_note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+}
+.item{
+    max-width: 300px;
+}
+
+.item .title{
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.492);
+}
+.item .desc{
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.edit_delet{
+    padding: 5px;
+    margin: 0 10px;
+}
+.edit_delet button{
+    padding: 5px;
+}

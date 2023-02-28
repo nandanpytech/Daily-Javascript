@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_board{
+    background-color: #fff;
+    display: flex;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+    overflow-x: hidden;
+}
+.white_board i{
+    font-size: 25px;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
